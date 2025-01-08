@@ -52,3 +52,26 @@ Key features engineered and used in this project include:
 ### Clustering
 - **Optimal Clusters**: 3 clusters with a Silhouette Score of 0.52.
 - **Insights**: Identification of traits associated with successful projects and strategies for improvement.
+
+- ## Business Impact
+
+### For Kickstarter Administrators:
+- Identify high-potential projects for targeted promotions.
+- Offer data-driven mentorship to creators in lower-performing clusters.
+- Optimize resource allocation based on project characteristics.
+
+### For Project Creators:
+- Set realistic funding goals and optimize project timelines.
+- Enhance visibility through platform features like "staff pick" endorsements.
+- Learn from successful projects to improve descriptions and presentations.
+
+## Technical Details
+
+- **Data Source**: Kickstarter dataset containing variables such as project goal, category, country, launch time, and more.
+- **Models Used**:
+  - **Classification**: Gradient Boosting for success prediction.
+  - **Clustering**: K-Means for project segmentation.
+- **Preprocessing**:
+  - Feature engineering, such as grouping categories and creating temporal variables.
+  - Removal of multicollinear predictors to improve model performance.
+  - Standardization of data for clustering.
